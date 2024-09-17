@@ -1,0 +1,9 @@
+diff a/app/Http/Controllers/API/AuthController.php b/app/Http/Controllers/API/AuthController.php	(rejected hunks)
+@@ -17,6 +17,7 @@
+     //
+     public function register(Request $request)
+     {
++        return $request->all();
+         $request->validate([
+             'user_type' => 'required',
+             'phone_number' => 'required',

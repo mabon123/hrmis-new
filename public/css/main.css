@@ -1,0 +1,432 @@
+@font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/Flaticon.eot");
+    src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/Flaticon.woff2") format("woff2"),
+         url("../fonts/Flaticon.woff") format("woff"),
+         url("../fonts/Flaticon.ttf") format("truetype"),
+         url("../fonts/Flaticon.svg#Flaticon") format("svg");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+      font-family: "Flaticon";
+      src: url("../fonts/Flaticon.svg#Flaticon") format("svg");
+    }
+  }
+  
+  [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+  [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+    font-family: Flaticon;
+          font-size: 20px;
+  font-style: normal;
+  margin-left: 20px;
+  }
+  
+  .flaticon-avatar:before { content: "\f100"; }
+  .flaticon-password:before { content: "\f101"; }
+  .flaticon-key:before { content: "\f102"; }
+  .flaticon-speedometer:before { content: "\f103"; }
+  .flaticon-calendar:before { content: "\f104"; }
+  .flaticon-upload:before { content: "\f105"; }
+  .flaticon-file:before { content: "\f106"; }
+  .flaticon-save:before { content: "\f107"; }
+  .flaticon-edit:before { content: "\f108"; }
+  .flaticon-delete:before { content: "\f109"; }
+  .content-wrapper,
+body {
+    /*
+    background: url(../images/gdi-bg.jpg) center center no-repeat #e8e9ee;
+    background-size: 80% auto !important;
+    */
+}
+body.custom-body .main-header {
+    background-color: #0087b2;
+}
+
+body.custom-body .main-sidebar #brand_link {
+    background-color: #0a7698;
+    color: #ffffff;
+}
+.main-sidebar #brand_link {
+    border-bottom: 1px solid #118989;
+}
+.card-box-header .card-header {
+    background-color: #f0f0f0;
+    color: #0a7698;
+}
+.card-info .card-header .card-title:not(.title-work-info){
+    color: #f0f0f0;
+}
+#div_workinfo .card-header {
+    margin: 0;padding: 0;
+}
+
+#div_workinfo .title-work-info {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 7px 10px;
+}
+#div_workinfo .btn-tool {
+    color: #adb5bd;
+}
+
+body.custom-body .card-body label, body.custom-body .card-body .form-control {
+    /*font-size: 13px;*/
+    font-weight: normal;
+}
+/*
+.custom-body .card .card-header {
+    padding: 8px 15px;
+}
+*/
+body.lang-kh {
+    font-family: 'Khmer OS Siemreap', 'Khmer OS Battambang', Siemreap;
+}
+.input-group-addon {
+    background-color: #f0f0f0;
+    padding: 6px 12px;
+    border: 1px solid #d2d6de;
+    border-left: 0;
+}
+.div-checkbox {
+    padding-top: 35px;
+}
+.single-button { padding-top: 30px;}
+.teaching-box {
+    height: 140px;
+    padding-top: 15px;
+    margin: auto;
+    border-radius: 5px;
+    border: 1px solid #dedede;
+}
+.custom-checkbox .form-check-input {
+    position: absolute;
+    margin-top: 3px;
+    margin-left: -18px;
+    width: 18px;
+    height: 18px;
+} 
+.custom-checkbox .form-group label {
+    font-size: 13px;
+}
+.center-logo {
+    text-align: center;
+    max-width: 390px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Moul', 'Arial';
+    font-size: 22px;
+    line-height: 36px;
+    color: #0a7698;
+}
+.main-header h4 {
+    font-family: 'Moul', 'Arial';
+    font-size: 13px;
+    line-height: 19px;
+    color: #fff;
+}
+.right-border {
+    border-right: 1px solid #ccc;
+}
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0;
+    color: #0a7698;
+}
+.overflow {
+    height: 200px;
+  }
+  .ui-selectmenu-menu .ui-menu {max-height: 200px;}
+.content h4,
+h2, h3 {
+    /*font-family: 'Battambang', 'Arial';*/
+    color: #0a7698;
+    font-weight: bold;
+}
+/*
+.main-footer,
+.ui-menu .ui-menu-item-wrapper, p, label, span, input, .btn-blue, select, option, td {
+    font-family: 'Battambang', 'Arial';
+    font-size: 14px;
+}
+*/
+.content p, .content label, .content span, .content input, .content .btn-blue, .content select, .content option, .content td {
+    font-size: 14px;
+}
+.custom-card h4 {
+    border-bottom: 1px solid #0a7698;
+    font-size: 15px;
+}
+.row-box {
+    margin-bottom: 15px;
+}
+
+label.header {
+    font-weight: bold;
+    padding: 0 10px;
+}
+.underline {
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px solid #000;
+}
+.datepicker {
+    width: 100%;
+}
+hr {
+    margin: 0 !important;
+}
+/*
+.btn-primary,
+.btn-danger,
+.ui-datepicker-month,
+.table th,
+.breadcrumb li {
+    font-family: 'Battambang', cursive !important;
+}
+*/
+.datepicker-months td, .datepicker-months td span {
+    font-family: 'Times New Roman', Times, serif;
+}
+.datepicker-years td span,
+.datepicker-months td span {
+    padding: 0 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.ui-widget.ui-widget-content {
+    z-index: 99999 !important;
+}
+.center-logo h1 {
+    padding: 10px 0;
+}
+.box-body {
+    background: #fff;
+    box-shadow: 0 3px 5px 2px rgba(14, 14, 14, 0.1);
+}
+.login-form {
+    background: #fff;
+    padding: 40px;
+    box-shadow: 0 3px 5px 2px rgba(14, 14, 14, 0.1);
+    -webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+border: none !important;
+}
+.en-text .ui-selectmenu-button.ui-button,
+.en-text,
+.en-text select,
+.login-form input {
+    font-family: 'Times New Roman', Times, serif;
+}
+.login-form .form-group label {
+    position: absolute;
+    top: -14px;
+    z-index: 9;
+    left: 20px;
+    background: #fff;
+    padding: 2px 4px;
+    color: #0a7698;
+}
+.login-form .form-group {
+    position: relative;
+}
+.login-form .form-group input {
+    height: 45px;
+    border: none !important;
+}
+.login-form .form-group {
+    border: 1px solid #0a7698;
+    -webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+
+}
+.mt-2, .my-2 {
+    margin-top: 0 !important;
+}
+.login-form .input-group-text {
+    border: none;
+    background: none;
+}
+.login-form .input-group-text i {
+    color: #0a7698;
+}
+.form-control:focus {
+    box-shadow: none !important;
+}
+.custom-body .ul-submit{
+    margin: 0;
+}
+span.section-num {
+    font-weight: bold;
+    color: #0a7698;
+}
+/*
+.ul-submit button.btn-save, .ul-submit button.btn-cancel {
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 16px;
+}
+*/
+.custom-body .card-footer .btn-info { margin-right: 7px;}
+.flaticon-key:before {
+    font-size: 14px;
+    padding-right: 6px;
+}
+.custom-body .card-footer {text-align: center;}
+.skin-blue .main-sidebar{
+    background: #07224a !important;
+}
+.skin-blue .sidebar-menu>li:hover>a, .skin-blue .sidebar-menu>li.active>a, .skin-blue .sidebar-menu>li.menu-open>a{
+    background: #031734 !important;
+}
+.skin-blue .sidebar-menu>li>.treeview-menu{
+    background: #021127 !important;
+}
+.skin-blue .main-header .navbar{
+    background: #0e68a9 !important;
+}
+.main-header .logo .logo-lg {
+    display: block;
+    position: absolute;
+    left: 0;
+    max-width: 230px;
+    background: #07224a;
+    padding-top: 10px;
+}
+.main-header .logo img {
+    max-width: 80px;
+}
+.main-sidebar {
+    /*padding-top: 145px;*/
+}
+.ui-selectmenu-button.ui-button {
+    width: 100% !important;
+    border: 1px solid rgba(7, 34, 74, 0.59) !important;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background: #fff !important;
+}
+/*
+.sidebar-collapse .main-sidebar {
+    padding-top: 50px;
+}
+*/
+.sidebar{padding-left:0;padding-right:0;}
+.nav-pills .nav-link{border-radius:0;}
+.logo-mini img {
+    max-width: 40px !important;
+}
+.box-body h4,
+.content-header h2 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+label {
+    font-weight: normal;
+    color: #031734;
+}
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+    border: none !important;
+}
+.box-body input[type="text"], select {
+    border: 1px solid rgba(7, 34, 74, 0.59) !important;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+height: 35px;
+}
+.flaticon-calendar:before {
+    margin: 0;
+}
+.btn-upload {
+    background: #cdcdcd;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 150px;
+    float: right;
+}
+#file_upload {
+    width: 120px;
+    height: 150px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 5px;
+    opacity: 0;
+    z-index: 99;
+    position: relative;
+    cursor: pointer;
+}
+.flaticon-file:before {
+    margin: 0;
+    color: #07224a;
+}
+.menu-open .treeview-menu {
+    display: block;
+}
+.btn-view {
+    outline: none;
+    border: none;
+    background: none;
+}
+.up-icons {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    top: 20px;
+    z-index: 0;
+}
+.up-icons label {
+    display: block;
+}
+.flaticon-upload:before {
+    margin: 0;
+    font-size: 30px;
+    color: #0a7698;
+}
+.file {
+    visibility: hidden;
+    position: absolute;
+  }
+
+.red, .required { color:#f00 !important; }
+
+.kh {
+    font-family: 'Khmer OS Siemreap', 'Khmer OS Battambang', Siemreap;
+}
+i.success{color:#28a745;font-size:16px;}
+i.danger{color:#dc3545;font-size:16px;}
+
+/*--------------- Modal center the screen ----------------*/
+.modal-center {text-align:center;}
+
+@media screen and (min-width: 768px) { 
+  .modal-center:before {display: inline-block;vertical-align: middle;content: " ";height: 100%;}
+}
+
+.modal-center .modal-dialog {display: inline-block;text-align: left;vertical-align: middle;}
+
+/*--- Toast ---*/
+.toasts-top-right{z-index:1050 !important;}
+
+/*------ Staff profile photo -------*/
+#profile_photo{width:120px;height:150px;text-align:center;padding:20px;margin-top:5px;opacity:0;z-index:99;position:relative;cursor:pointer;}
+.profile-icon{position: absolute;width: 100%;height: 100%;cursor: pointer;top: 20px;z-index: 0;}
+.upload-section{background:#cdcdcd;overflow:hidden;position:relative;text-align:center;width:100%;float:right;}
+
+.card-footer ul.pagination{margin-bottom:0px !important;}
+
+.select2-selection__rendered{font-family: 'Khmer OS Siemreap', 'Khmer OS Battambang', Siemreap;}
+
+.form-group.has-error .select2 .select2-selection {border-color:#dc3545 !important;}
