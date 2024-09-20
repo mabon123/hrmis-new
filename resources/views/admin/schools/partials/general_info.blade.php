@@ -429,6 +429,13 @@
                                 <label for="disadvantage">@lang('school.disadvantage')</label>
                             </div>
                         </div>
+                        <div class="form-group mr-3 mr-sm-0">
+                            <input type="hidden" value="0" name="sokrit">
+                            <div class="icheck-primary">
+                                {{ Form::checkbox('sokrit', 1, null, ['id' => 'sokrit']) }}
+                                <label for="sokrit">@lang('school.sokrit')</label>
+                            </div>
+                        </div>
                         <div class="form-group mr-3 mr-sm-0 school-block">
                             <input type="hidden" value="0" name="resource_center">
                             <div class="icheck-primary">

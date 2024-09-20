@@ -5,6 +5,7 @@
         <td style="text-align: center; border: 1px solid black;"><span class="info-box-text">{{ $staffs[$i]->commune_kh }}</span></td>
         <td style="text-align: center; border: 1px solid black;"><span class="info-box-text">{{ $staffs[$i]->region_kh }}</span></td>
         <td style="text-align: center; border: 1px solid black;"><span class="info-box-text">{{ $staffs[$i]->disadvantage }}</span></td>
+        <td style="text-align: center; border: 1px solid black;"><span class="info-box-text">{{ $staffs[$i]->sokrit }}</span></td>
         <td style="text-align: center; border: 1px solid black;"><span class="info-box-text">{{ $staffs[$i]->AmountSt }}</span></td>
         <td style="text-align: center; border: 1px solid black;"><span class="info-box-text">{{ $staffs[$i]->FAmount }}</span></td>
         <td style="text-align: center; border: 1px solid black;"><span class="info-box-text">{{$staffs[$i]->AmountConS }}</span></td>

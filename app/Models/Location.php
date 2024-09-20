@@ -19,7 +19,7 @@ class Location extends Model
         'equal_gd', 'location_province', 'sub_location', 'parent_location_code',
     	'prokah', 'prokah_num', 'library', 'resource_center', 'building_num',
     	'distance_to_poe', 'multi_level_edu', 'technical_school',
-        'school_annex', 'main_school', 'disadvantage', 'temporary_code', 'ref_doc',
+        'school_annex', 'main_school', 'disadvantage', 'sokrit', 'temporary_code', 'ref_doc',
         'created_by', 'updated_by','schoolclaster',
     ];
 

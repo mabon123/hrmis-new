@@ -10,6 +10,7 @@ return [
 	'name_kh' 		        => 'Workplace Name',
 	'location_type' 		=> 'Workplace Type',
 	'disadvantage' 		    => 'Disadvantage',
+    'sokrit' 		    => 'SokritZ',
     'staffs' 			    => 'Edu Staffs',
     'contracted_staffs' 	=> 'Con Staffs',
     'distance_to_poe'       => 'Distance to POE',

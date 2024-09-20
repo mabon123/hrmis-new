@@ -28,6 +28,7 @@ class LocationsResource extends JsonResource
                 'region_kh' => (string)$this->region_kh,
                 'multi_levels_kh' => (string)$this->multi_levels_kh,
                 'disadvantage' => $this->disadvantage,
+                'sokrit' => $this->sokrit,
                 'resource_center' => $this->resource_center,
                 'library' => $this->library,
                 'technical_school' => $this->technical_school,
